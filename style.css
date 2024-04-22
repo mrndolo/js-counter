@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: tan;
+}
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+}
+#counterValue {
+    font-size: 80px;
+}
+.buttonsWrapper {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 16px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+}
